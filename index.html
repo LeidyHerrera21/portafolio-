@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <!-- Enlace a Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tu archivo CSS personalizado -->
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Acerca de mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección de Acerca de mí -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Acerca de mí</h2>
+      <p>Coloca aquí información sobre ti, tus habilidades, experiencia, etc.</p>
+    </div>
+  </section>
+
+  <!-- Sección de Proyectos -->
+  <section id="projects" class="bg-light py-5">
+    <div class="contenedor">
+        <!-- Imagen botón -->
+        <img src="ruta_de_la_imagen" alt="Botón" id="boton-imagen">
+    
+        <!-- Cuadro flotante -->
+        <div class="cuadro-flotante" id="cuadro-flotante">
+          <h2>Cuadro Flotante</h2>
+          <p>Contenido del cuadro flotante.</p>
+          <button id="ver-boton">Ver</button>
+        </div>
+      </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contacto</h2>
+      <p>Información de contacto: correo electrónico, teléfono, redes sociales, etc.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      &copy; 2024 Mi Portafolio
+    </div>
+  </footer>
+
+  <!-- Enlace a Bootstrap JS (opcional si se necesitan componentes de JavaScript de Bootstrap) -->
+  <script src="assets/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
